@@ -1,0 +1,14 @@
+{
+  "name": "the-qr-app",
+  "version": "0.0.1",
+  "description": "A QR app",
+  "main": "index.js",
+  "scripts": {
+    "launch": "npx tsc && node ./build"
+  },
+  "author": "christopher",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  }
+}
