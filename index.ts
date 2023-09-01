@@ -3,9 +3,8 @@
 import path from "path";
 import { extractData } from "./qrDataExtractor";
 
-const world = 'world';
+const pdfFilePath = path.resolve(__dirname, '../sample.pdf');
 
-
-const pdfFilePath = path.resolve(__dirname, './sample.pdf');
-
-extractData(pdfFilePath)
+extractData(pdfFilePath).then(data => {
+  console.log(data?.data)
+})
