@@ -11,11 +11,13 @@
   "devDependencies": {
     "@types/node": "^20.5.7",
     "@types/pngjs": "^6.0.1",
+    "@types/qrcode": "^1.5.2",
     "pdf-to-png-converter": "^3.1.0",
     "typescript": "^5.2.2"
   },
   "dependencies": {
     "jsqr": "^1.4.0",
-    "pngjs": "^7.0.0"
+    "pngjs": "^7.0.0",
+    "qrcode": "^1.5.3"
   }
 }
