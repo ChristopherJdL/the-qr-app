@@ -1,5 +1,5 @@
 import jsQR from "jsqr";
-import { makePic } from "./makePic";
+import { makePic } from "./picMaker";
 
 export async function extractData(pdfFilePath: string) {
     var pic = await makePic(pdfFilePath)
